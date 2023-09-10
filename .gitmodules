@@ -1,0 +1,3 @@
+[submodule "cpp/rust_like_result/third_party/googletest"]
+	path = cpp/rust_like_result/third_party/googletest
+	url = https://github.com/google/googletest.git
