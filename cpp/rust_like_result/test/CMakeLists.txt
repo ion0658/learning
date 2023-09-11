@@ -1,19 +1,6 @@
 cmake_minimum_required(VERSION 3.20)
 enable_testing()
 
-# include(FetchContent)
-# FetchContent_Declare(
-#     googletest
-#     GIT_REPOSITORY https://github.com/google/googletest.git
-#     GIT_TAG        v1.14.0
-# )
-# set(gtest_force_shared_crt ON CACHE BOOL "" FORCE)
-# FetchContent_MakeAvailable(googletest)
-# FetchContent_GetProperties(googletest)
-
-# message(STATUS "gtest_SOURCE_DIR = ${gtest_SOURCE_DIR}")
-# message(STATUS "gmock_SOURCE_DIR = ${gmock_SOURCE_DIR}")
-
 add_executable(${PROJECT_NAME}-test)
 
 cmake_policy(SET CMP0076 NEW)
