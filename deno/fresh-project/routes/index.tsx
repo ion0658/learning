@@ -19,6 +19,7 @@ export default function Home() {
           <code class="mx-2">./routes/index.tsx</code> file, and refresh.
         </p>
         <Counter count={count} />
+        <a href="/greet/john" class="my-4">Greet John</a>
       </div>
     </div>
   );
